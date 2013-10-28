@@ -1,2 +1,2 @@
-require './music_fest'
+require './app'
 run Sinatra::Application
