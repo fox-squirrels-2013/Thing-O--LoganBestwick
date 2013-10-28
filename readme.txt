@@ -1,0 +1,2 @@
+10/28, Noon
+The first route entered in the Music Festival app is the basic '/' route. I told sinatra to intercept this route and display the index.erb view. I tested it out and it did display the information properly.
