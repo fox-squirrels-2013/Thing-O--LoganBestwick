@@ -1,6 +1,6 @@
-class CreateMusicFestivals < ActiveRecord::Migration
+class CreateFestivals < ActiveRecord::Migration
 	def change
-		create_table :musicfestivals do |t|
+		create_table :festivals do |t|
 			t.string :name
 			t.string :city
 			t.string :state
