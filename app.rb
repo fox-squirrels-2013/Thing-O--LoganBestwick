@@ -5,6 +5,7 @@ require_relative './app/models/festival'
 ActiveRecord::Base.establish_connection(adapter: 'postgresql', database:'festivals')
 
 get '/' do
+	@festivals = Festival.all
 	erb :index
 end
 

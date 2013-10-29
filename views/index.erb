@@ -18,3 +18,12 @@
 	State: <input type="text" name="state">
 	<input type='submit' value='Submit!'>
 </section>
+
+<br><br>
+
+<% @festivals.each_with_index do |festival, index| %>
+	<p> <%= index+1 %>. <%= festival.name %> in <%= festival.city %>, <%= festival.state %> </p>
+	<p>    Created at: <%= festival.created_at %></p>
+	<a href="">[edit]</a> <a href="" >[delete]</a>
+	<br>
+<% end %>	
